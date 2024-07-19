@@ -1,0 +1,121 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "coverImg": "/images/post1.jpeg",
+      "description": "The Impact of Technology on the Workplace: How Technology is Changing",
+      "category": "Technology",
+      "authorName": "Tracey Wilson",
+      "authorImg": "/images/post1.jpeg",
+      "date": "August 20, 2022"
+    },
+    {
+      "id": 2,
+      "coverImg": "/images/post2.jpeg",
+      "description": "The Impact of Technology on the Workplace: How Technology is Changing",
+      "category": "Technology",
+      "authorName": "Tracey Wilson",
+      "authorImg": "/images/post1.jpeg",
+      "date": "August 20, 2022"
+    },
+    {
+      "id": 3,
+      "coverImg": "/images/post1.jpeg",
+      "description": "The Impact of Technology on the Workplace: How Technology is Changing",
+      "category": "Technology",
+      "authorName": "Tracey Wilson",
+      "authorImg": "/images/post1.jpeg",
+      "date": "August 20, 2022"
+    },
+    {
+      "id": 4,
+      "coverImg": "/images/post4.jpeg",
+      "description": "The Impact of Technology on the Workplace: How Technology is Changing",
+      "category": "Technology",
+      "authorName": "Tracey Wilson",
+      "authorImg": "/images/post1.jpeg",
+      "date": "August 20, 2022"
+    },
+    {
+      "id": 5,
+      "coverImg": "/images/post5.jpeg",
+      "description": "The Impact of Technology on the Workplace: How Technology is Changing",
+      "category": "Technology",
+      "authorName": "Tracey Wilson",
+      "authorImg": "/images/post5.jpeg",
+      "date": "August 20, 2022"
+    },
+    {
+      "id": 6,
+      "coverImg": "/images/post6.jpeg",
+      "description": "The Impact of Technology on the Workplace: How Technology is Changing",
+      "category": "Technology",
+      "authorName": "Tracey Wilson",
+      "authorImg": "/images/post1.jpeg",
+      "date": "August 20, 2022"
+    },
+    {
+      "id": 7,
+      "coverImg": "/images/post7.jpeg",
+      "description": "The Impact of Technology on the Workplace: How Technology is Changing",
+      "category": "Technology",
+      "authorName": "Tracey Wilson",
+      "authorImg": "/images/post1.jpeg",
+      "date": "August 20, 2022"
+    },
+    {
+      "id": 8,
+      "coverImg": "/images/post8.jpeg",
+      "description": "The Impact of Technology on the Workplace: How Technology is Changing",
+      "category": "Technology",
+      "authorName": "Elizabeth Slavin",
+      "authorImg": "/images/post1.jpeg",
+      "date": "August 20, 2022"
+    },
+    {
+      "id": 9,
+      "coverImg": "/images/post9.jpeg",
+      "description": "The Impact of Technology on the Workplace: How Technology is Changing",
+      "category": "Technology",
+      "authorName": "Ernie Smith",
+      "authorImg": "/images/post1.jpeg",
+      "date": "August 20, 2022"
+    },
+    {
+      "id": 10,
+      "coverImg": "/images/post6.jpeg",
+      "description": "The Impact of Technology on the Workplace: How Technology is Changing",
+      "category": "Technology",
+      "authorName": "Tracey Wilson",
+      "authorImg": "/images/post1.jpeg",
+      "date": "August 20, 2022"
+    },
+    {
+      "id": 11,
+      "coverImg": "/images/post7.jpeg",
+      "description": "The Impact of Technology on the Workplace: How Technology is Changing",
+      "category": "Technology",
+      "authorName": "Tracey Wilson",
+      "authorImg": "/images/post1.jpeg",
+      "date": "August 20, 2022"
+    },
+    {
+      "id": 12,
+      "coverImg": "/images/post8.jpeg",
+      "description": "The Impact of Technology on the Workplace: How Technology is Changing",
+      "category": "Technology",
+      "authorName": "Elizabeth Slavin",
+      "authorImg": "/images/post1.jpeg",
+      "date": "August 20, 2022"
+    },
+    {
+      "id": 13,
+      "coverImg": "/images/post9.jpeg",
+      "description": "The Impact of Technology on the Workplace: How Technology is Changing",
+      "category": "Technology",
+      "authorName": "Ernie Smith",
+      "authorImg": "/images/post1.jpeg",
+      "date": "August 20, 2022"
+    }
+  ]
+}

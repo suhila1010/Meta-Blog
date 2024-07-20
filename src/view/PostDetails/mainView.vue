@@ -51,6 +51,7 @@ import axios from "axios";
 import author from "../../components/authorInfo/authorInfo.vue";
 import Ad from "../../components/Ad/AdComponent.vue";
 import Quot from "../../components/quot/AppQuot.vue";
+import authImg from "../../assets/authImg.jpeg"
 export default {
   components: {
     author,
@@ -62,6 +63,7 @@ export default {
       id: null,
       posts: [],
       postDetails: null,
+      authImg
     };
   },
   created() {

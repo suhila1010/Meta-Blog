@@ -1,12 +1,12 @@
 <template>
-  <div class="px-52 w-full mb-20 md:px-24 sm:px-5">
+  <div class="px-52 w-full mb-20 md:px-16 sm:px-5 xl:px-32 lg:px-16 xs:px-5">
     <h1 class="text-2xl font-bold mb-7">Latest Post</h1>
     <ul class="flex gap-5 flex-wrap justify-center">
       <Post
         v-for="post in PaginatedPosts"
         :key="post.id"
         :post="post"
-        class="basis-[32%] p-4 border rounded-lg md:basis-[45%] sm:basis-[100%]"
+        class="basis-[32%] p-4 border rounded-lg xs:basis-full sm:basis-full md:basis-[45%] lg:basis-[48%]"
       />
     </ul>
     <div class="w-full flex justify-center my-10">
@@ -48,9 +48,9 @@ export default {
           console.error("There was an error fetching the posts!", error);
         });
     },
-    LoadMore(){
-        this.PageSize = this.PageSize + 3
-    }
+    LoadMore() {
+      this.PageSize = this.PageSize + 3;
+    },
   },
   computed: {
     PaginatedPosts() {

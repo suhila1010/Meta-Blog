@@ -1,5 +1,5 @@
 <template>
-  <li>
+  <li class="w-full">
     <img
       :src="post.coverImg"
       :alt="post.title"
@@ -13,7 +13,7 @@
       {{ post.description }}
     </p>
     <div>
-      <author :img="authImg" :name="post.authorName" :date="post.date" />
+      <author :img="post.authorImg" :name="post.authorName" :date="post.date" />
     </div>
   </li>
 </template>

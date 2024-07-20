@@ -1,6 +1,6 @@
 <template>
-  <div class="flex items-center gap-3 mt-3 text-[#97989F] sm:text-xs sm:gap-1">
-    <img :src="authImg" alt="" class="w-12 h-12 rounded-full" />
+  <div class="flex items-center gap-3 mt-3 text-[#97989F] sm:text-xs xs:text-xs xs:gap-1 sm:gap-1">
+    <img :src="img" alt="" class="w-12 h-12 rounded-full" />
     <h5 class="font-semibold">{{ name }}</h5>
     <p>{{ date }}</p>
   </div>
@@ -10,7 +10,7 @@
 import authImg from "../../assets/authImg.jpeg";
 export default {
   props: {
-    Img: String,
+    img: String,
     name: String,
     date: String,
   },

@@ -1,10 +1,10 @@
 <template>
-  <div class="px-52 w-full h-[80vh] relative mb-20">
-    <div class="w-full h-full overflow-hidden rounded-xl">
+  <div class="px-52 w-full h-[80vh] relative mb-20 md:px-24 sm:px-5 ">
+    <div class="w-full h-full rounded-xl">
       <img
         :src="BannerImg"
         alt="Banner-Img"
-        class="w-full h-full object-cover"
+        class="w-full h-full object-cover rounded-xl"
       />
     </div>
     <div

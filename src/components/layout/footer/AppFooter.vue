@@ -1,6 +1,6 @@
 <template>
-  <footer class="bg-[#F6F6F7] border-t border-[#E8E8EA]">
-    <div class="px-52 py-14 flex justify-between">
+  <footer class="bg-[#F6F6F7] border-t border-[#E8E8EA] overflow-hidden">
+    <div class="px-52 py-14 flex justify-between md:px-24 sm:px-5 sm:flex-col sm:gap-8">
       <div class="basis-1/4">
         <h1 class="font-bold mb-4 Plus text-black">About</h1>
         <p class="mb-3">
@@ -56,9 +56,9 @@
         </div>
       </div>
     </div>
-    <div class="px-52">
+    <div class="px-52 md:px-24 sm:px-5 ">
       <div
-        class="border-t border-[#E8E8EA] py-10 flex justify-between items-center"
+        class="border-t border-[#E8E8EA] py-10 flex justify-between items-center sm:flex-col-reverse sm:gap-5"
       >
         <div class="flex items-center gap-3">
           <img :src="logo" alt="logo" class="w-12 h-12" />

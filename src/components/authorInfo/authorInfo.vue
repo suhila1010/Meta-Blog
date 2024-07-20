@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center gap-3 mt-3 text-[#97989F]">
+  <div class="flex items-center gap-3 mt-3 text-[#97989F] sm:text-xs sm:gap-1">
     <img :src="authImg" alt="" class="w-12 h-12 rounded-full" />
     <h5 class="font-semibold">{{ name }}</h5>
     <p>{{ date }}</p>

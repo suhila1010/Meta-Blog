@@ -1,5 +1,5 @@
 <template>
-  <nav class="px-52 py-5 flex justify-between items-center">
+  <nav class="px-52 py-5 flex justify-between items-center md:px-24 sm:px-5 overflow-hidden">
     <div class="flex items-center gap-2 flex-grow">
       <img :src="logo" alt="" />
       <h1 class="text-2xl Plus">

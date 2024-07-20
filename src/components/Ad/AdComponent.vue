@@ -1,7 +1,7 @@
 <template>
   <div class="w-full my-10 flex justify-center">
     <div
-      class="w-[45%] bg-[#E8E8EA] rounded-md text-center py-3 text-[#696A75]"
+      class="w-[45%] bg-[#E8E8EA] rounded-md text-center py-3 text-[#696A75] sm:w-[80%] xs:w-[85%]"
     >
       <span class="text-xs">Advertisement</span>
       <p class="font-bold text-lg">You can place ads</p>

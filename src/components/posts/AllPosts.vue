@@ -1,12 +1,12 @@
 <template>
-  <div class="px-52 w-full mb-20">
+  <div class="px-52 w-full mb-20 md:px-24 sm:px-5">
     <h1 class="text-2xl font-bold mb-7">Latest Post</h1>
-    <ul class="flex gap-5 flex-wrap">
+    <ul class="flex gap-5 flex-wrap justify-center">
       <Post
         v-for="post in PaginatedPosts"
         :key="post.id"
         :post="post"
-        class="basis-[32%] p-4 border rounded-lg"
+        class="basis-[32%] p-4 border rounded-lg md:basis-[45%] sm:basis-[100%]"
       />
     </ul>
     <div class="w-full flex justify-center my-10">

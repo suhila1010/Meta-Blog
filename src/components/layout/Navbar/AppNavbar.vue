@@ -2,7 +2,7 @@
   <nav
     class="px-52 py-5 flex justify-between items-center md:px-16 sm:px-5 xs:px-5 lg:px-16 xl:px-32"
   >
-    <div class="flex items-center gap-2 flex-grow" @click="$router.push('/')">
+    <div class="flex items-center gap-2 flex-grow cursor-pointer" @click="$router.push('/')">
       <img :src="logo" alt="" class="xs:w-6 xs:h-5" />
       <h1 class="text-2xl Plus xs:text-sm sm:text-sm">
         Meta<span class="font-extrabold Plus ml-[2px]">Blog</span>
